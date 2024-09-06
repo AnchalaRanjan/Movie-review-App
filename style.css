@@ -1,0 +1,147 @@
+body{
+    background: rgba(195, 231, 246, 0.868);
+    
+}   
+
+li {
+    list-style-type: none;
+    /* margin-top: 10px; */
+    margin-left: 150px;
+    margin-right: 40px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+a{
+    text-anchor:  none;
+    text-decoration: none;
+    color:inherit;
+
+}
+
+
+li:hover{
+    background-color: rgb(142, 151, 204);
+    border-radius: 5px;
+}
+
+
+.list-style {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.navbar {
+
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+.box-design{
+    /* height:350px; */
+    width: 1000px ;
+    background-color: #0b0a0af7;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 83px;
+    border-radius:8px;
+}
+.movie-card{
+    height: 330px;
+    width: 210px;
+    background-color: rgba(217, 217, 217, 1);
+    transition-duration: 0.2s;
+    margin: 13px;
+    border-radius: 8px;
+}
+.movie-card:hover{
+    background-color: rgb(240, 237, 162);
+    border-width: 5px;
+    border-color: rgba(243, 234, 234, 0.947);
+    border-style: solid;
+    transform:scale(1.1);
+    
+}
+.movie-imagebox{
+    height:165px;
+    width:auto;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(181, 239, 220);
+
+}
+.movie-image{
+    height: 164px;
+    width: 205px;
+}
+.movie-detailbox{
+     height: 153px; 
+    /* width: auto; */
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgba(247, 245, 246, 0.703);
+}
+.rating-design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+
+}
+.movie-title{
+    padding-left: 8px;
+    height: 36px;
+
+}
+.Watchlist-design{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.watchlist-button{
+    background-color: 
+    rgba(36, 10, 10, 1);
+    color: inherit;
+    border-radius: 15px;
+transition-duration: 0.4s;
+}
+.watchlist-button:hover{
+    background-color: rgb(114, 14, 213);
+
+}
+
+.Trailer-design{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 15px;
+}
+.trailer-button{
+    background-color: 
+    rgba(36, 10, 10, 1);
+    color: inherit;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+.trailer-button:hover{
+    background-color: blue;
+}
+
